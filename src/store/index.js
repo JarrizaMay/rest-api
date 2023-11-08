@@ -1,7 +1,8 @@
-import  Express, { json}  from "express";
+import Express, { json } from "express";
 import dotenv from "dotenv";
 dotenv.config();
-const{API_URL} = process.env;
+
+const { API_URL } = process.env;
 const app = Express();
 
 //routers
